@@ -1,0 +1,8 @@
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\bin\Debug\Juego.exe.config
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\bin\Debug\Juego.exe
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\bin\Debug\Juego.pdb
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\obj\Debug\Juego.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\obj\Debug\Juego.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\obj\Debug\Juego.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\obj\Debug\Juego.exe
+C:\Users\User\Documents\GitHub\scripting-project\Files\Juego\Juego\obj\Debug\Juego.pdb

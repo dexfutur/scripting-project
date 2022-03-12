@@ -4,6 +4,21 @@
     "C:\\Users\\User\\Documents\\GitHub\\scripting-project\\Files\\Juego\\Test\\Test.csproj": {}
   },
   "projects": {
+    "C:\\Users\\User\\Documents\\GitHub\\scripting-project\\Files\\Juego\\Juego\\Juego.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\scripting-project\\Files\\Juego\\Juego\\Juego.csproj",
+        "projectName": "Juego",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\scripting-project\\Files\\Juego\\Juego\\Juego.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\User\\Documents\\GitHub\\scripting-project\\Files\\Juego\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\User\\Documents\\GitHub\\scripting-project\\Files\\Juego\\Juego\\Juego.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\GitHub\\scripting-project\\Files\\Juego\\Juego\\Juego.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

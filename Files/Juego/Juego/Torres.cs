@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Juego
 {
-    internal class Program
+    internal class Torres
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
