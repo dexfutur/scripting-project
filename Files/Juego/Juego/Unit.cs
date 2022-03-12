@@ -19,10 +19,10 @@ namespace Juego
             this.value = value;            
         }
 
-        static int AsignaFuerza(Random aleatorio, int fuerza)
+        static int AsignaFuerza(Random aleatorio, int value)
         {
-            fuerza = aleatorio.Next(1, 11);
-            return fuerza;
+            value = aleatorio.Next(1, 11);
+            return value;
         }
 
         public static void Combat(Unit enemy, Unit player)
@@ -32,20 +32,20 @@ namespace Juego
                 {
                     player.value += enemy.value;
                     enemy.value = 0;
-                    Console.WriteLine(player.value+"  " ,enemy.value);
+                    //Console.WriteLine(player.value+"  " ,enemy.value);
                 }
                 else if (player.value <= enemy.value)
                 {
                     enemy.value+=player.value;
                     player.value = 0;
-                    Console.WriteLine(player.value + "  ", enemy.value);
+                   // Console.WriteLine(player.value + "  ", enemy.value);
 
                 }
                 else if (player.value==enemy.value)
                 {
                     enemy.value += player.value;
                     player.value = 0;
-                    Console.WriteLine(player.value + "  ", enemy.value);
+                    //Console.WriteLine(player.value + "  ", enemy.value);
 
                 }
 
