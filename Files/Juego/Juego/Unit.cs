@@ -19,6 +19,7 @@ namespace Juego
             this.value = value;            
         }
 
+
         static int AsignaFuerza(Random aleatorio, int fuerza)
         {
             fuerza = aleatorio.Next(1, 11);
@@ -28,27 +29,19 @@ namespace Juego
         public static void Combat(Unit enemy, Unit player)
         {
             if(enemy.typeOfunit=="character"){
-                if (player.value >= enemy.value)
+                if (player.value > enemy.value)
                 {
                     player.value += enemy.value;
                     enemy.value = 0;
                     Console.WriteLine(player.value+"  " ,enemy.value);
                 }
-                else if (player.value <= enemy.value)
+                else
                 {
                     enemy.value+=player.value;
                     player.value = 0;
                     Console.WriteLine(player.value + "  ", enemy.value);
 
                 }
-                else if (player.value==enemy.value)
-                {
-                    enemy.value += player.value;
-                    player.value = 0;
-                    Console.WriteLine(player.value + "  ", enemy.value);
-
-                }
-
             }
             else if(enemy.typeOfunit=="obstacle"){
                 player.value+=enemy.value;
