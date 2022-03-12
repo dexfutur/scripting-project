@@ -8,5 +8,7 @@ namespace Juego
 {
     internal class Torres
     {
+        Unit[] player1;
+        Unit[] enemy1;
     }
 }
