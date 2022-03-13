@@ -51,7 +51,7 @@ namespace Juego
     {
         if (Enemigo.fuerza == 0)
         {
-            Array.Resize(ref torres, torres.Length + 1);
+            Array.Resize(ref torres, torres.Length + 1); 
         }
     }
 

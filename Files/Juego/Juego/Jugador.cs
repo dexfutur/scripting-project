@@ -30,7 +30,7 @@ namespace Juego
         {
             if ()
             {
-                Array.Resize(ref torre, torre.Length+1);  
+                Array.Resize(ref torre, torre.Length+1);   
             }
         }
 
