@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Juego
+namespace Test
 {
-    internal class Unit
+    internal class Unit2
     {
         string typeOfunit;
         int value;
         Random aleatorio = new Random();
 
 
-        public Unit(string typeOfunit, int value)
+        public Unit2(string typeOfunit, int value)
         {
             this.typeOfunit = typeOfunit;
             this.value = value;
@@ -25,7 +25,7 @@ namespace Juego
             return value;
         }
 
-        public static void Combat(Unit enemy, Unit player)
+        public static void Combat(Unit2 enemy, Unit2 player)
         {
             if (enemy.typeOfunit == "character")
             {

@@ -1,19 +1,22 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+using NUnit.Framework;
 
 namespace Test
 {
     [TestClass]
     public class UnitTest1
     {
+        private Unit2 unit;
+
         [SetUp]
         public void Setup()
         {
-
+            unit = new Unit2(string typeOfunit, int value);
         }
         [TearDown]
         public void TearDown()
         {
+            unit=null;
             //resetear parámetros y volver =null
         }
 
@@ -39,6 +42,8 @@ namespace Test
         public void EnfrentaAPersonajes()
 
         {
+
+            
 
         }
         [TestMethod]

@@ -15,7 +15,12 @@
       "ProjectGuid": "837fdb1c-fe60-4822-8842-358911e13c20",
       "DisplayName": "Test",
       "ColorIndex": 1
+    },
+    "33123f24-1d89-491b-9afa-648d52e105a7": {
+      "ProjectGuid": "33123f24-1d89-491b-9afa-648d52e105a7",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
