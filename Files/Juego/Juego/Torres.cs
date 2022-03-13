@@ -11,6 +11,5 @@ namespace Juego
         Unit[] player1;
         Unit[] enemy1;
 
-        Torres[] niveles = new Torres[5];  
     }
 }

@@ -15,13 +15,20 @@ namespace Juego
 	        int fuerza = 0;
             int ubicación;
             Random aleatorio = new Random();
+            Torres[] torreE = new Torres[5];
 
-            public int Fuerza { get => fuerza; set => fuerza = value; }
+           public int Fuerza { get => fuerza; set => fuerza = value; }
             public int Ubicación { get => ubicación; set => ubicación = value; }
+        internal Torres[] TorreE { get => torreE; set => torreE = value; }
 
-            //MÉTODOS
+        public Enemigo(int fuerza, Torres[] torreE)
+        {
+            this.fuerza = fuerza;
+            this.torreE = torreE;
+        }
+        //MÉTODOS
 
-            static void atacar()
+        static void atacar()
             {
             Console.WriteLine("el enemigo está atacando");
             }
