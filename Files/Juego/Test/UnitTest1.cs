@@ -7,11 +7,13 @@ namespace Test
     public class UnitTest1
     {
         private Unit2 unit;
+        private string typeOfunit;
+        private int value;
 
         [SetUp]
         public void Setup()
         {
-            unit = new Unit2(string typeOfunit, int value);
+            unit = new Unit2(typeOfunit, value);
         }
         [TearDown]
         public void TearDown()
@@ -42,8 +44,11 @@ namespace Test
         public void EnfrentaAPersonajes()
 
         {
+            string typeOfunit;
+            int value; 
 
-            
+            Assert.AreEqual
+
 
         }
         [TestMethod]

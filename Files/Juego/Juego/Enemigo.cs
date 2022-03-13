@@ -12,8 +12,8 @@ namespace Juego
        
 	    //PROPIEDADES
 
-	        int fuerza = 0;
-            int ubicación;
+	        public int fuerza = 0;
+            public int ubicación;
             Random aleatorio = new Random();
 
              int value;
@@ -47,6 +47,13 @@ namespace Juego
                 return fuerza;
             }
         }
+    public void DecrementaTamañoTorre(Enemigo fuerza , Enemigo ubicacion)
+    {
+        if (Enemigo.fuerza == 0)
+        {
+            Array.Resize(ref torres, torres.Length + 1);
+        }
+    }
 
 }
 

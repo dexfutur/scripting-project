@@ -23,8 +23,15 @@ namespace Juego
             this.fuerza = fuerza;
             this.torre = torre;
             this.value = value;
-             this.value = aleatorio.Next(1, 5);
+            this.value = aleatorio.Next(1, 5);
             this.torre = new Torres[value];
+        }
+        public void AumentaTamañoTorre(Jugador value, Jugador fuerza)
+        {
+            if ()
+            {
+                Array.Resize(ref torre, torre.Length+1);  
+            }
         }
 
    
