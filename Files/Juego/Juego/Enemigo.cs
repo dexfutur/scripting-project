@@ -19,6 +19,7 @@ namespace Juego
              int value;
             Torres[] torreE;
 
+
            public int Fuerza { get => fuerza; set => fuerza = value; }
             public int Ubicación { get => ubicación; set => ubicación = value; }
         internal Torres[] TorreE { get => torreE; set => torreE = value; }
