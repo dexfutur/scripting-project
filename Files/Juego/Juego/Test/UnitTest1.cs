@@ -10,12 +10,10 @@ namespace Test
         private string typeOfunit;
         private int value;
 
-
         [SetUp]
         public void Setup()
         {
-            unit = new Unit2(typeOfunit, value, victoria:false);
-            torres = new Torres();
+            unit = new Unit2(typeOfunit, value);
         }
         [TearDown]
         public void TearDown()
