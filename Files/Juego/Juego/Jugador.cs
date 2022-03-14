@@ -30,7 +30,7 @@ namespace Juego
             this.torre = new Torres[value];
             this.vidas = vidas;
         }
-        public void Victoria(Jugador value1, Enemigo fuerza, Jugador vidas)
+        public void Victoria(Jugador value1, Enemigo fuerza, int vidas)
         {
             if (resultado == true)
             {
