@@ -11,3 +11,4 @@ PROBLEMAS QUE TUVIMOS EN EL PROCESO:
 - Hubo problemas al principio para relacionar las clases del proyecto de Test con las del Proyecto del juego.
 -  Además en los tests tuvimos problemas para instanciar estas clases dentro de tests como el profe mostró en el SetuP
 - Hubo problemas de comunicación por los equipos de los integrantes y la red
+- Teniamos un problema en las pruebas unitarias que usaban un Using diferente al que se pedía y nos dio muhcos problemas

@@ -1,15 +1,16 @@
-
 using NUnit.Framework;
 using CollectionAssert = NUnit.Framework.CollectionAssert;
 
 namespace Test
 {
-    [TestClass]
+    
     public class UnitTest1
     {
         public Unit2 unit;
         private string typeOfunit;
         private int value;
+
+        private DataValidator? validator;
 
 
         [SetUp]
@@ -27,7 +28,7 @@ namespace Test
             //resetear parámetros y volver =null
         }
 
-        [TestMethod]
+        [Test]
         public void CreaTorre()
 
         {
@@ -43,7 +44,7 @@ namespace Test
             Assert.AreNotEqual(Torres.Lenght, 0);
 
         }
-        [TestMethod]
+        [Test]
         public void CreaPersonajeValorinicial()
         {
             string typeOfunit = "character";
@@ -54,7 +55,7 @@ namespace Test
 
             Assert.AreNotEqual(unit.player.value, 0);
         }
-        [TestMethod]
+        [Test]
         public void AsignaJugadorATorre()
 
         {
@@ -66,7 +67,7 @@ namespace Test
             Assert.IsTrue(validator.AreEqual());
 
         }
-        [TestMethod]
+        [Test]
         public void EnfrentaAPersonajes()
 
         {
@@ -82,6 +83,7 @@ namespace Test
 
 
         }
+        [Test]
         public void JugadorVsEnemigoConTorres()
 
         {
@@ -105,13 +107,13 @@ namespace Test
 
 
         }
-        [TestMethod]
+        [Test]
         public void SimularCombate()
 
         {
 
         }
-        [TestMethod]
+        [Test]
         public void JugadorpierdeunaVida()
 
         {
