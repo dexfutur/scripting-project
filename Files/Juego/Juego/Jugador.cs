@@ -11,22 +11,22 @@ namespace Juego
 
         int fuerza = 2;
         Random aleatorio = new Random();
-        int value;
+        int value1;
 
         Torres[] torre; 
         public int Fuerza { get => fuerza; set => fuerza = value; }
         internal Torres[] Torre { get => torre; set => torre = value; }
-        public int Value { get => value; set => this.value = value; }
+        public int Value { get => value1; set => this.value1 = value; }
 
         public Jugador(int fuerza, Torres[] torre, int value)
         {
             this.fuerza = fuerza;
             this.torre = torre;
-            this.value = value;
-            this.value = aleatorio.Next(1, 5);
+            this.value1 = value;
+            this.value1 = aleatorio.Next(1, 5);
             this.torre = new Torres[value];
         }
-        public void AumentaTamañoTorre(Jugador value, Jugador fuerza)
+        public void AumentaTamañoTorre(Jugador value1, Enemigo fuerza)
         {
             if ()
             {
