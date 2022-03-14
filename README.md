@@ -1,5 +1,6 @@
 # scripting-project
 scripting-project
+
 Hecho por Juan Pablo Ruiz, Andrés Gomez  y Daniel Pestana Villa
 
 PROBLEMAS QUE TUVIMOS EN EL PROCESO:
@@ -12,3 +13,13 @@ PROBLEMAS QUE TUVIMOS EN EL PROCESO:
 -  Además en los tests tuvimos problemas para instanciar estas clases dentro de tests como el profe mostró en el SetuP
 - Hubo problemas de comunicación por los equipos de los integrantes y la red
 - Teniamos un problema en las pruebas unitarias que usaban un Using diferente al que se pedía y nos dio muhcos problemas
+
+INSTRUCCIONES
+
+Se crea una clase Unit que permite instanciar al enemigo y al Jugador, posee un método para combatir entre ellos y contra los obsctáculos.
+En la clase Torres se crean para poner al jugador o Enemigo y la clase Jugador y Enemigo la relaciona: le resta vidas y decrementa el tamaño o lo aumenta de la torre.
+
+
+
+- El integrante Andres Gomez no realizo commit, no realizo lo acordado por su parte y no habló en las reuniones, no hizo nada.
+
