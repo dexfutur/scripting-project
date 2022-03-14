@@ -117,7 +117,19 @@ namespace Test
         public void JugadorpierdeunaVida()
 
         {
+            string typeOfunit;
+            int value;
 
+            Unit2 player = new Unit2("character", value, true);
+            Unit2 enemy = new Unit2("character", value, true);
+
+            Unit2 player1 = new Unit2("character", value, false);
+
+            jugadores = new Jugador (fuerza, aleatorio, value1, resultado, vidas);
+
+
+            Assert.IsTrue(Jugador.victoria, false);
+            Assert.LessOrEqual(Jugador.vidas,2);
         }
     }
 }
