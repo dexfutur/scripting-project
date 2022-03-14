@@ -12,6 +12,7 @@ namespace Juego
         int fuerza = 2;
         Random aleatorio = new Random();
         int value1;
+        bool resultado;
 
         Torres[] torre; 
         public int Fuerza { get => fuerza; set => fuerza = value; }
@@ -28,7 +29,7 @@ namespace Juego
         }
         public void AumentaTamañoTorre(Jugador value1, Enemigo fuerza)
         {
-            if ()
+            if (resultado == true)
             {
                 Array.Resize(ref torre, torre.Length+1);   
             }

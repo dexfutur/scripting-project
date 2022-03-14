@@ -6,7 +6,7 @@ namespace Test
     [TestClass]
     public class UnitTest1
     {
-        private Unit2 unit;
+        public Unit2 unit;
         private string typeOfunit;
         private int value;
 
@@ -32,7 +32,13 @@ namespace Test
         [TestMethod]
         public void CreaPersonajeValorinicial()
         {
+            string typeOfunit = "character";
+            int value = 6;
 
+            Unit2 player = new Unit2("character", value);
+
+
+            Assert.AreNotEqual(unit.player.value, 0);
         }
         [TestMethod]
         public void AsignaJugadorATorre()
@@ -44,10 +50,13 @@ namespace Test
         public void EnfrentaAPersonajes()
 
         {
+            //Enemigo vs jugador gana jugador
             string typeOfunit;
-            int value; 
+            int value;
+            Unit2 player = new Unit2("character", value);
+            Unit2 enemy = new Unit2("character", value, false);
+            Assert.IsTrue();
 
-            Assert.AreEqual
 
 
         }

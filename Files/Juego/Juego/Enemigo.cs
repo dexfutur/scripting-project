@@ -16,16 +16,18 @@ namespace Juego
             public int ubicación;
             Random aleatorio = new Random();
             bool resultado;
+            int Lenght;
 
              int value1;
             Torres[] torreE;
+            
 
-
-           public int Fuerza { get => fuerza; set => fuerza = value; }
+            public int Fuerza { get => fuerza; set => fuerza = value; }
             public int Ubicación { get => ubicación; set => ubicación = value; }
-        internal Torres[] TorreE { get => torreE; set => torreE = value; }
-        public int Value { get => value1; set => this.value1 = value; }
-        public bool Resultado { get => resultado; set => resultado = value; }
+            internal Torres[] TorreE { get => torreE; set => torreE = value; }
+            public int Value { get => value1; set => this.value1 = value; }
+            public bool Resultado { get => resultado; set => resultado = value; }
+            public int Lenght1 { get => Lenght; set => Lenght = value; }
 
         public Enemigo(int fuerza, Torres[] torreE, int value, bool resultado)
         {
@@ -38,11 +40,11 @@ namespace Juego
 
         }
         //MÉTODOS
-        public static void DecrementaTamañoTorre(Enemigo fuerza, Torres value1, Enemigo torreE, bool resultado)
+        public static void DecrementaTamañoTorre(Enemigo fuerza, Torres value1, Enemigo torreE, bool resultado, Torres Lenght)
         {
             if (resultado == false)
             {
-                Array.Resize(ref torreE, Torres.Length - 1);
+                Array.Resize(ref torreE, torreE.Length - 1);
             }
         }
 

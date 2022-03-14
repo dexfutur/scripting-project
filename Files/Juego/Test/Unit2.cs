@@ -6,17 +6,19 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    internal class Unit2
+    public class Unit2
     {
         string typeOfunit;
         int value;
         Random aleatorio = new Random();
+        bool victoria;
 
 
-        public Unit2(string typeOfunit, int value)
+        public Unit2(string typeOfunit, int value, bool victoria)
         {
             this.typeOfunit = typeOfunit;
             this.value = value;
+            this.victoria = victoria;   
         }
 
         static int AsignaFuerza(Random aleatorio, int value)
@@ -33,12 +35,15 @@ namespace Test
                 {
                     player.value += enemy.value;
                     enemy.value = 0;
+                    player.victoria=true;
+
                     //Console.WriteLine(player.value+"  " ,enemy.value);
                 }
                 else if (player.value <= enemy.value)
                 {
                     enemy.value += player.value;
                     player.value = 0;
+                    player.victoria = false;
                     // Console.WriteLine(player.value + "  ", enemy.value);
 
                 }
@@ -46,6 +51,8 @@ namespace Test
                 {
                     enemy.value += player.value;
                     player.value = 0;
+                    player.victoria = false;
+
                     //Console.WriteLine(player.value + "  ", enemy.value);
 
                 }
@@ -54,7 +61,9 @@ namespace Test
             else if (enemy.typeOfunit == "obstacle")
             {
                 player.value += enemy.value;
-                Console.WriteLine(player.value + "  ", enemy.value);
+                player.victoria = true;
+
+                //Console.WriteLine(player.value + "  ", enemy.value);
 
             }
             else
