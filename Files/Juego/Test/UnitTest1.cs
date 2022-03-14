@@ -45,6 +45,7 @@ namespace Test
 
         {
 
+
         }
         [TestMethod]
         public void EnfrentaAPersonajes()
@@ -62,6 +63,12 @@ namespace Test
         }
         [TestMethod]
         public void SimularCombate()
+
+        {
+
+        }
+        [TestMethod]
+        public void JugadorpierdeunaVida()
 
         {
 
