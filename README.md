@@ -1,6 +1,25 @@
 # scripting-project
 scripting-project
 
+Avance 2:
+
+Participante: Juan Pablo Ruiz Gil 
+
+Link del ejecutable: https://drive.google.com/file/d/1OrtoXau9X139prS0Ot5nssuJMxdkGDK0/view?usp=sharing
+
+Consideraciones:
+
+- No se pudo implementar el combate
+- No se pudo implmentar las torres
+- Problemas con la creacion de escenas y acomodar la camara
+- No tenia claro como implmentar el proyecto, asi que el codigo se realizo desde unity.
+- Esto anterior afecto a la implementacion general
+- Problemas con las referencias de objetos
+- Problemas con los sprites
+
+
+Avance 1:
+
 Hecho por Juan Pablo Ruiz, Andrés Gomez  y Daniel Pestana Villa
 
 PROBLEMAS QUE TUVIMOS EN EL PROCESO:
