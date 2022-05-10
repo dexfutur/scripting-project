@@ -3,7 +3,24 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - torre
+  - villano2
+  - villano1
+  - villano3
+  - jugador
+  - villano4
+  - villano5
+  - DragParent
+  - TorrePlayer
+  - TowerFactory
+  - Canvas
+  - Torres
+  - TorreVillian
+  - PisosSiguientes
+  - enemigo
+  - obstaculo
+  - lvl
   layers:
   - Default
   - TransparentFX

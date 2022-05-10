@@ -10,18 +10,23 @@ public class DragHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     private Vector3 startPosition;
     private Transform startParent;
     private Transform dragParent;
+   
+
 
 
     private void Start() 
     {
-        
+        dragParent = GameObject.FindGameObjectWithTag("DragParent").transform;
     }
 
-    #region DragFunctions
-
-    public void OnBeginDrag(PointerEventData eventData)
+    public void OnBeginDrag(PointerEventData eventData) 
     {
         Debug.Log("OnBeginDrag");
+        objBeingDraged = gameObject;
+        startPosition = transform.position;
+        startParent = transform.parent;
+        transform.SetParent(dragParent);
+
 
     }
 
@@ -34,11 +39,16 @@ public class DragHandler : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("OnEndDrag");
+        objBeingDraged = null;
+        if(transform.parent == dragParent)
+        {
+            transform.position = startPosition;
+            transform.SetParent(startParent);
+        }
         
     }
 
-    #endregion
-
+  
     private void Update()
     {
 

@@ -15,7 +15,7 @@ public class DropSlot : MonoBehaviour, IDropHandler
         {
             item = DragHandler.objBeingDraged;
             item.transform.SetParent(transform);
-            item.transform.position = transform.position;
+            item.transform.position = new Vector3(transform.position.x - 35, transform.position.y - 35, transform.position.z + 1);
         }
     }
 

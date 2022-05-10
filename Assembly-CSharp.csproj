@@ -57,20 +57,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\SeguirAlJugador.cs" />
-    <Compile Include="Assets\Codigos\GameManager.cs" />
-    <Compile Include="Assets\Codigos\Obstaculo.cs" />
-    <Compile Include="Assets\Codigos\Enemigo.cs" />
-    <Compile Include="Assets\Codigos\ControlVolumen.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\Enemigo.cs" />
+    <Compile Include="Assets\Script\ControlVolumen.cs" />
     <Compile Include="Assets\Script\DragHandler.cs" />
-    <Compile Include="Assets\Codigos\Torre.cs" />
-    <Compile Include="Assets\Codigos\MainMenu.cs" />
+    <Compile Include="Assets\Script\Torre.cs" />
+    <Compile Include="Assets\Script\Jugador.cs" />
+    <Compile Include="Assets\Script\DestroyByContact.cs" />
+    <Compile Include="Assets\Script\MainMenu.cs" />
+    <Compile Include="Assets\Script\SingletonMusic.cs" />
     <Compile Include="Assets\Script\DropSlot.cs" />
+    <Compile Include="Assets\Script\Obstaculo.cs" />
     <Compile Include="Assets\Script\ItemPool.cs" />
-    <Compile Include="Assets\Codigos\Jugador.cs" />
-    <Compile Include="Assets\Codigos\Personaje.cs" />
-    <Compile Include="Assets\Codigos\ControlPause.cs" />
+    <Compile Include="Assets\Script\HideTowers.cs" />
+    <Compile Include="Assets\Script\TorreFactory.cs" />
+    <Compile Include="Assets\Script\Personaje.cs" />
+    <Compile Include="Assets\Script\pause.cs" />
+    <Compile Include="Assets\Script\RefactoryTowerPlayer.cs" />
+    <Compile Include="Assets\Script\ShowTowers.cs" />
+    <Compile Include="Assets\Script\ControlPause.cs" />
     <Compile Include="Assets\Script\SeguimientoDragandDrog.cs" />
-    <Compile Include="Assets\Codigos\pause.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

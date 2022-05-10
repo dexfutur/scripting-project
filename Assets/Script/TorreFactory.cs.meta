@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 122d0518064cfa84087b031209a17eec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - torreVillian: {fileID: 8684236980531549348, guid: d1a52aea27271884b8cad3f51703a59f, type: 3}
+  - torre: {fileID: 8684236980531549348, guid: 80482305c3c40ac44a69dd85bba9ce57, type: 3}
+  - torres: {instanceID: 0}
+  - instanciaTorrePlayer: {instanceID: 0}
+  - instanciaPlayer: {instanceID: 0}
+  - zombie1: {instanceID: 0}
+  - zombie2: {instanceID: 0}
+  - zombie3: {instanceID: 0}
+  - obstaculo1: {instanceID: 0}
+  - obstaculo2: {instanceID: 0}
+  - obstaculo3: {instanceID: 0}
+  - torreVillian1: {instanceID: 0}
+  - torreVillian2: {instanceID: 0}
+  - torreVillian3: {instanceID: 0}
+  - jugador: {fileID: 7502025719315707610, guid: 67b88fe0c3321be46824a940e916414b, type: 3}
+  - nivel: {fileID: 4843604604173302575, guid: d635c35d048200546a929872d8c1c9a7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
